@@ -48,3 +48,6 @@ yarn jar ./WeroDetectOutliersDemo_v2.jar com.nortal.wero.Utils genVectors 100000
 
 # Calculate two clusters from 10 parameters vectors
 yarn jar ./WeroDetectOutliersDemo_v2.jar com.nortal.wero.KMeansClustering 10
+
+# Browse clasters - take last 100 rows
+ [margusja@vm37 ~]$ yarn jar ./WeroDetectOutliersDemo_v2.jar com.nortal.wero.Utils readClusters 100
